@@ -1,0 +1,23 @@
+# Directories
+.cloud
+.google.token
+.storage/
+.Trash*/
+.vscode/
+deps/
+lost+found/
+tts/
+
+# Files
+__pycache__
+.DS_Store
+*.conf
+*.db
+*.db-shm
+*.db-wal
+*.log
+*.pyc
+._*
+ip_bans.yaml
+known_devices.yaml
+secrets.yaml
