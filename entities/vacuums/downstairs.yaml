@@ -1,5 +1,5 @@
 ---
 platform: xiaomi_miio
-name: Roborock S6 Pure
+name: roborock_s6_pure_downstairs
 host: !env_var SECRET_XIAOMI_ROBOROCK_S6_PURE_HOST
 token: !env_var SECRET_XIAOMI_ROBOROCK_S6_PURE_TOKEN
