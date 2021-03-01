@@ -1,0 +1,6 @@
+---
+# This handles the loading of automations
+#
+# https://www.home-assistant.io/docs/cloud/
+#
+cloud:
