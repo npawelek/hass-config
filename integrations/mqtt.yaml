@@ -6,3 +6,8 @@
 
 mqtt:
   discovery: false
+  broker: !env_var SECRET_MQTT_BROKER
+  port: 8883
+  username: !env_var SECRET_MQTT_USERNAME
+  password: !env_var SECRET_MQTT_PASSWORD
+
