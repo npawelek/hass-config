@@ -1,0 +1,8 @@
+---
+# Enable MQTT publish/subscribe messaging.
+#
+# https://www.home-assistant.io/integrations/mqtt/
+#
+
+mqtt:
+  discovery: false

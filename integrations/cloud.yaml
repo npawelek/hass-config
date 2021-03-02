@@ -1,6 +1,7 @@
 ---
-# This handles the loading of automations
+# Enable the Home Assistant Cloud (Nabu Casa).
 #
 # https://www.home-assistant.io/docs/cloud/
 #
+
 cloud:
