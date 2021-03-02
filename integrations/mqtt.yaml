@@ -6,8 +6,6 @@
 
 mqtt:
   discovery: false
-  birth_message: {}
-  will_message: {}
   broker: !env_var SECRET_MQTT_BROKER
   port: 8883
   certificate: auto
