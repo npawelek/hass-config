@@ -1,0 +1,7 @@
+---
+platform: mqtt
+name: Flood Battery - Water Heater
+state_topic: "shellies/shellyflood-612129/sensor/battery"
+unit_of_measurement: "%"
+device_class: battery
+qos: 2

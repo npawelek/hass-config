@@ -1,0 +1,8 @@
+---
+platform: mqtt
+name: Flood Temperature - Master Bathroom Jacuzzi
+state_topic: "shellies/shellyflood-612C04/sensor/temperature"
+unit_of_measurement: "°F"
+device_class: "temperature"
+icon: mdi:thermometer
+qos: 2
