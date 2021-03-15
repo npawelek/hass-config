@@ -1,0 +1,8 @@
+---
+platform: mqtt
+name: Flood Temperature - Guest Bathroom
+state_topic: "shellies/shellyflood-61359C/sensor/temperature"
+unit_of_measurement: "°F"
+device_class: "temperature"
+icon: mdi:thermometer
+qos: 2

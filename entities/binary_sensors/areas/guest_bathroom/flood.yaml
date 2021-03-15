@@ -1,0 +1,8 @@
+---
+platform: mqtt
+name: Flood Sensor - Guest Bathroom
+state_topic: "shellies/shellyflood-61359C/sensor/flood"
+payload_on: "true"
+payload_off: "false"
+device_class: moisture
+qos: 2
