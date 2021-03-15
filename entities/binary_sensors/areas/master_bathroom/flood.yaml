@@ -1,8 +1,15 @@
 ---
-platform: mqtt
-name: Flood Sensor - Master Bathroom Jessie
-state_topic: "shellies/shellyflood-6122F9/sensor/flood"
-payload_on: "true"
-payload_off: "false"
-device_class: moisture
-qos: 2
+- platform: mqtt
+  name: Flood Sensor - Master Bathroom Jessie
+  state_topic: "shellies/shellyflood-6122F9/sensor/flood"
+  payload_on: "true"
+  payload_off: "false"
+  device_class: moisture
+  qos: 2
+- platform: mqtt
+  name: Flood Sensor - Master Bathroom Nathan
+  state_topic: "shellies/shellyflood-6138D2/sensor/flood"
+  payload_on: "true"
+  payload_off: "false"
+  device_class: moisture
+  qos: 2

@@ -1,7 +1,13 @@
 ---
-platform: mqtt
-name: Flood Sensor Battery - Master Bathroom Jessie
-state_topic: "shellies/shellyflood-6122F9/sensor/battery"
-unit_of_measurement: "%"
-device_class: battery
-qos: 2
+- platform: mqtt
+  name: Flood Sensor Battery - Master Bathroom Jessie
+  state_topic: "shellies/shellyflood-6122F9/sensor/battery"
+  unit_of_measurement: "%"
+  device_class: battery
+  qos: 2
+- platform: mqtt
+  name: Flood Sensor Battery - Master Bathroom Nathan
+  state_topic: "shellies/shellyflood-6138D2/sensor/battery"
+  unit_of_measurement: "%"
+  device_class: battery
+  qos: 2
