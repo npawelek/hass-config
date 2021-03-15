@@ -1,0 +1,8 @@
+---
+platform: mqtt
+name: Flood Sensor - Kitchen
+state_topic: "shellies/shellyflood-612BFA/sensor/flood"
+payload_on: "true"
+payload_off: "false"
+device_class: moisture
+qos: 2

@@ -1,0 +1,8 @@
+---
+platform: mqtt
+name: Flood Temperature - Kitchen
+state_topic: "shellies/shellyflood-612BFA/sensor/temperature"
+unit_of_measurement: "°F"
+device_class: "temperature"
+icon: mdi:thermometer
+qos: 2

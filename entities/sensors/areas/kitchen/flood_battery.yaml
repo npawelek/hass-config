@@ -1,0 +1,7 @@
+---
+platform: mqtt
+name: Flood Battery - Kitchen
+state_topic: "shellies/shellyflood-612BFA/sensor/battery"
+unit_of_measurement: "%"
+device_class: battery
+qos: 2
