@@ -1,8 +1,0 @@
-binary_sensor:
-- platform: mqtt
-  name: Flood Sensor - Master Bathroom Jessie
-  state_topic: "shelly/shellyflood-6122F9/sensor/flood"
-  payload_on: "true"
-  payload_off: "false"
-  device_class: moisture
-  qos: 2

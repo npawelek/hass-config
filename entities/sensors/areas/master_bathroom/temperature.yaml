@@ -1,8 +1,8 @@
-sensor:
-- platform: mqtt
-  name: Flood Sensor Temperature - Master Bathroom Jessie
-  state_topic: "shelly/shellyflood-6122F9/sensor/temperature"
-  unit_of_measurement: "°F"
-  device_class: "temperature"
-  icon: mdi:thermometer
-  qos: 2
+---
+platform: mqtt
+name: Flood Sensor Temperature - Master Bathroom Jessie
+state_topic: "shelly/shellyflood-6122F9/sensor/temperature"
+unit_of_measurement: "°F"
+device_class: "temperature"
+icon: mdi:thermometer
+qos: 2
