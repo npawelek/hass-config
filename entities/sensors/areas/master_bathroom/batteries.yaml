@@ -1,0 +1,7 @@
+sensor:
+- platform: mqtt
+  name: Flood Sensor Battery - Master Bathroom Jessie
+  state_topic: "shelly/shellyflood-6122F9/sensor/battery"
+  unit_of_measurement: "%"
+  device_class: battery
+  qos: 2
