@@ -4,10 +4,9 @@
 # https://www.home-assistant.io/integrations/mqtt/
 #
 
-# mqtt:
-#   discovery: false
-#   broker: !env_var SECRET_MQTT_BROKER
-#   port: 8883
-#   certificate: auto
-#   username: !env_var SECRET_MQTT_USERNAME
-#   password: !env_var SECRET_MQTT_PASSWORD
+mqtt:
+  discovery: false
+  broker: !env_var SECRET_MQTT_BROKER
+  port: 1883
+  username: !env_var SECRET_MQTT_USERNAME
+  password: !env_var SECRET_MQTT_PASSWORD
