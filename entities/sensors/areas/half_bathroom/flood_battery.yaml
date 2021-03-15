@@ -1,0 +1,7 @@
+---
+platform: mqtt
+name: Flood Battery - Half Bathroom
+state_topic: "shellies/shellyflood-612CB7/sensor/battery"
+unit_of_measurement: "%"
+device_class: battery
+qos: 2
