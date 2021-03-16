@@ -1,0 +1,7 @@
+platform: average
+name: 'Downstairs Average Temperature'
+entities:
+- sensor.dining_room_temperature
+- sensor.kitchen_temperature
+- sensor.sitting_room_temperature
+- sensor.living_room_temperature
