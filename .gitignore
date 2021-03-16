@@ -5,6 +5,7 @@
 .Trash*/
 .vscode/
 deps/
+image/
 lost+found/
 tts/
 
