@@ -1,0 +1,6 @@
+---
+platform: venstar
+host: !env_var SECRET_VENSTAR_THERMOSTAT_DOWNSTAIRS_HOST
+ssl: false
+timeout: 5
+humidifier: false
