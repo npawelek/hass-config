@@ -1,5 +1,6 @@
 platform: average
 name: 'Downstairs Average Temperature'
+unique_id: __legacy__
 entities:
 - sensor.dining_room_temperature
 - sensor.kitchen_temperature
