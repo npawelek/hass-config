@@ -10,5 +10,5 @@ http:
   ip_ban_enabled: false
   login_attempts_threshold: -1
   trusted_proxies:
-  - !env_var SECRET_TRUSTED_PROXIES
+    - !env_var SECRET_TRUSTED_PROXIES
   use_x_forwarded_for: true
