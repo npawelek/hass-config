@@ -1,5 +1,5 @@
 platform: average
-name: 'Upstairs Average Temperature'
+name: 'Average Temperature Upstairs'
 unique_id: __legacy__
 entities:
 - sensor.master_bathroom_temperature

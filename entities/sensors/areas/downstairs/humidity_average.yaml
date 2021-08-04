@@ -1,5 +1,5 @@
 platform: average
-name: 'Downstairs Average Humidity'
+name: 'Average Humidity Downstairs'
 unique_id: __legacy__
 entities:
 - sensor.dining_room_humidity

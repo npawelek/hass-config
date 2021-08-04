@@ -1,5 +1,5 @@
 platform: average
-name: 'Downstairs Average Temperature'
+name: 'Average Temperature Downstairs'
 unique_id: __legacy__
 entities:
 - sensor.dining_room_temperature
