@@ -1,0 +1,14 @@
+---
+# The camera integration allows you to use IP cameras with Home Assistant.
+#
+# https://www.home-assistant.io/components/vacuum/
+#
+camera:
+  - platform: xiaomi_cloud_map_extractor
+    host: !env_var SECRET_XIAOMI_ROBOROCK_S6_PURE_HOST
+    token: !env_var SECRET_XIAOMI_ROBOROCK_S6_PURE_TOKEN
+    username: !env_var SECRET_XIAOMI_CLOUD_USERNAME
+    password: !env_var SECRET_XIAOMI_CLOUD_PASSWORD
+    draw: ['all']
+    attributes:
+      - calibration_points
