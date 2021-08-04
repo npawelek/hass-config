@@ -1,6 +1,6 @@
 platform: average
 name: 'Average Humidity Downstairs'
-unique_id: __legacy__
+unique_id: average_humidity_downstairs
 entities:
 - sensor.dining_room_humidity
 - sensor.kitchen_humidity
