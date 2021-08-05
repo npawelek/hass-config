@@ -10,5 +10,15 @@ zone:
 - name: Home
   latitude: !env_var SECRET_ZONE_HOME_LATITUDE
   longitude: !env_var SECRET_ZONE_HOME_LONGITUDE
-  radius: 20
+  radius: 100
   icon: mdi:home
+- name: Work
+  latitude: !env_var SECRET_ZONE_NATHAN_WORK_LATITUDE
+  longitude: !env_var SECRET_ZONE_NATHAN_WORK_LONGITUDE
+  radius: 100
+  icon: mdi:office-building-outline
+- name: Work
+  latitude: !env_var SECRET_ZONE_JESSIE_WORK_LATITUDE
+  longitude: !env_var SECRET_ZONE_JESSIE_WORK_LONGITUDE
+  radius: 100
+  icon: mdi:hospital-building
