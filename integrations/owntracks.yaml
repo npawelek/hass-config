@@ -1,0 +1,12 @@
+---
+# Track your location and send it directly to Home Assistant.
+#
+# https://www.home-assistant.io/integrations/owntracks
+#
+
+owntracks:
+  max_gps_accuracy: 100
+  secret: !env_var SECRET_OWNTRACKS_ENCRYPTION_KEY
+  waypoints: true
+  waypoint_whitelist:
+    - npawelek
